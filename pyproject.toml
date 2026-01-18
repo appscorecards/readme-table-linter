@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "readme-table-linter"
+version = "0.0.1"
+description = "A tiny linter for markdown tables in README files."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "appscorecards contributors" }]
+
+[tool.setuptools.packages.find]
+where = ["src"]
